@@ -25,7 +25,7 @@ Microarchitectural Data Sampling – MDS, or "Zombieload" – is a group of CPU 
   
 ### Can this maintenance be postponed or rescheduled?
 
-No. Due to the critical nature and logistical requirements of these updates, we aren’t able to reschedule or push back the provided maintenance windows. Our team is working around the clock to have our infrastructure patched against the Meltdown and Spectre vulnerabilities as quickly as possible.
+No. Due to the critical nature and logistical requirements of these updates, we aren’t able to reschedule or push back the provided maintenance windows.
 
 ### Can I start this maintenance early?
 
