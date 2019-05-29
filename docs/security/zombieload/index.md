@@ -23,6 +23,12 @@ Microarchitectural Data Sampling – MDS, or "Zombieload" – is a group of CPU 
 
 ## FAQ   
   
+
+### Where can I see maintenance times for my Linode(s)?
+
+You can view your maintenance window start times in the [Linode Manager](https://manager.linode.com). We'll also communciate the maintenance window start times in a support ticket.
+
+
 ### Can this maintenance be postponed or rescheduled?
 
 No. Due to the critical nature and logistical requirements of these updates, we aren’t able to reschedule or push back the provided maintenance windows.
