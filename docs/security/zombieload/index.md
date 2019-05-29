@@ -3,7 +3,7 @@ author:
   name: Linode
   email: docs@linode.com
 description: "Intel recently disclosed two vulnerabilities that affect processors in most devices over the last 23 years. Here's how that affects you and what you can do about it."
-keywords: ["meltdown", "spectre", "vulnerability", "kernel"]
+keywords: ["zombieload", "mds", "vulnerability", "kernel"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2019-05-29
 modified: 2019-05-29
@@ -45,7 +45,7 @@ No – while rebooting with an updated kernel will help prepare your Linode for 
 
 * Visit our [Reboot Survival Guide](/docs/uptime/reboot-survival-guide/) to prepare for a graceful reboot.
 * [Update your kernel](#how-to-reboot-into-an-updated-linode-kernel) and reboot.
-* [Follow our blog for updates](https://blog.linode.com/2018/01/03/cpu-vulnerabilities-meltdown-spectre/).
+* [Follow our blog for updates](https://blog.linode.com/2019/05/15/intels-mds-zombieload-cpu-vulnerabilities-linode/).
 
 
 ### How to Reboot into an Updated Linode Kernel
