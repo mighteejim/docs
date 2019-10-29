@@ -7,7 +7,7 @@ keywords: ["deep learning", "big data", "python", "keras", "flask", "machine lea
 og_description: 'Use a pre-trained deep learning model as part of a production application.'
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2017-10-09
-modified: 2017-10-10
+modified: 2019-01-31
 modified_by:
   name: Linode
 title: 'How to Move Your Machine Learning Model to Production'
@@ -16,9 +16,10 @@ external_resources:
 - '[Keras Documentation](https://keras.io/)'
 - '[Fast AI Deep Learning Course](http://course.fast.ai/)'
 - '[TensorFlow Tutorials](https://www.tensorflow.org/tutorials/)'
+dedicated_cpu_link: true
 ---
 
-![How to Move Your Machine Learning Model to Production](Machine_Learning_Model.jpg)
+![How to Move Your Machine Learning Model to Production](move-machine-learning-model-to-production.png "How to Move Your Machine Learning Model to Production")
 
 Developing, training, and tuning a deep learning model for a particular problem, such as natural language processing (NLP) or image recognition, requires time and resources. It also often involves using powerful processors to train the model on large datasets. However, once the model is working well, using it to generate predictions on new data is much simpler and less computationally expensive. The only difficulty is in moving the model from its development environment into a production app.
 

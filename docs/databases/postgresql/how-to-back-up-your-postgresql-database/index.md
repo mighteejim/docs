@@ -58,11 +58,6 @@ PostgreSQL provides the `pg_dump` utility to simplify backing up a single databa
      - `*.sql`: plaintext dump
      - `*.tar`: tarball
 
-    {{< note >}}
-By default, PostgreSQL will ignore any errors that occur during the backup process. This can result in an incomplete backup. To prevent this, you can run the `pg_dump` command with the `-1` option. This will treat the entire backup procedure as a single transaction, which will prevent partial backups in the event of an error:
-
-    pg_dump dbname > dbname.bak
-{{< /note >}}
 
 ### Remote Database
 
@@ -101,7 +96,7 @@ You may want to set up a cron job so that your database will be backed up automa
 4.  Add the following line to the end of the crontab:
 
     {{< file crontab >}}
-0 * * * 0 pg_dump -U postgres dbname > ~/postgres/backups/dbname.bak
+0 0 * * 0 pg_dump -U postgres dbname > ~/postgres/backups/dbname.bak
 {{< /file >}}
 
 5.  Save and exit from the editor. Your database will be backed up at midnight every Sunday. To change the time or frequency of the updates, see our [Schedule Tasks with Cron](/docs/tools-reference/tools/schedule-tasks-with-cron/) guide.

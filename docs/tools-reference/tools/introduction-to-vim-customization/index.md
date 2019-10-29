@@ -6,7 +6,7 @@ description: 'This how-to guide shows you how to configure the Vim text editor a
 keywords: ["vim", " editor"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2017-08-21
-modified: 2017-08-22
+modified: 2019-04-17
 modified_by:
   name: 'Linode'
 title: 'Introduction To Vim Customization'
@@ -87,14 +87,14 @@ filetype off
 syntax on
 
 " For plug-ins to load correctly.
-filetype plug-in indent on
+filetype plugin indent on
 
 " Turn off modelines
 set modelines=0
 
 " Automatically wrap text that extends beyond the screen length.
 set wrap
-" Vim's auto indentation feature does not work properly with text copied from outisde of Vim. Press the <F2> key to toggle paste mode on/off.
+" Vim's auto indentation feature does not work properly with text copied from outside of Vim. Press the <F2> key to toggle paste mode on/off.
 nnoremap <F2> :set invpaste paste?<CR>
 imap <F2> <C-O>:set invpaste paste?<CR>
 set pastetoggle=<F2>
@@ -256,4 +256,3 @@ Many additional plug-ins and tools exist to enhance your Vim experience. The Vim
 One of the best places to search for additional plug-ins is on the VimAwesome website. Most of the plug-ins available for Vim are hosted there in a well-organized and easily searchable environment, along with instructions for installation for all the most popular plug-in management tools.
 
 Lastly, if you want to gain a deeper understanding of Vim-Plug, the project's Github page is an excellent place to start. Links for all these websites are provided in the *External Resources* section.
-

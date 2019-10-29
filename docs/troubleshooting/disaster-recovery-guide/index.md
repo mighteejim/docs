@@ -5,6 +5,8 @@ author:
 description: 'Troubleshooting steps to access your Linode after maintenance has been applied to your host.'
 keywords: ['linux','reboot','lish']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
+deprecated: true
+deprecated_link: 'troubleshooting/troubleshooting-basic-connection-issues/'
 published: 2018-07-27
 modified: 2018-07-27
 modified_by:
@@ -32,7 +34,7 @@ If you have ensured that your Linode is booted, but do not have SSH access, you 
 
 1.  Click on the *Remote Access* tab. Under the *Console Access* section, click on the *Launch Lish Console* link. This launches the Lish Console via your browser window and you will be prompted to enter your Linode user and password.
 
-    If you have trouble logging in with your root password, consider [resetting the root password](/docs/quick-answers/linode-platform/reset-the-root-password-on-your-linode/) to rule out any password issues.
+    If you have trouble logging in with your root password, consider [resetting the root password](/docs/quick-answers/linode-platform/reset-the-root-password-on-your-linode-new-manager/) to rule out any password issues.
 
 The [Using a Linode Shell Guide](/docs/platform/manager/using-the-linode-shell-lish/) contains more information on Lish.
 

@@ -68,8 +68,8 @@ setup(
     description='Hello world enterprise edition',
     version='0.1',
     url='http://github.com/example/linode_example',
-    author='Linode'
-    author_email='docs@linode.com'
+    author='Linode',
+    author_email='docs@linode.com',
     keywords=['pip','linode','example']
     )
 
@@ -85,7 +85,7 @@ def hello_word():
 {{< /file >}}
 
 
-5.  The `setup.cfg` file lets PyPI know the README is a markdown file:
+5.  The `setup.cfg` file lets PyPI know the README is a Markdown file:
 
     {{< file "setup.cfg" >}}
 [metadata]

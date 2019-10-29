@@ -28,6 +28,10 @@ The upgrade may be incomplete or your system may be corrupted if your internet c
 
 {{< /caution >}}
 
+{{< note >}}
+If you are upgrading from Ubuntu 17.04 you must first upgrade to Ubuntu 17.10.
+{{< /note >}}
+
 ## Prepare to Upgrade to Ubuntu 18.04
 
 The steps required in this guide require root privileges. Be sure to run the steps below as **root** or with the `sudo` prefix. For more information on privileges see our [Users and Groups](/docs/tools-reference/linux-users-and-groups) guide.
@@ -103,13 +107,13 @@ Prompt=lts
 
 {{< /file >}}
 
-3.  You're now ready to begin the upgrade to Ubuntu 18.04 LTS. Since Ubuntu encourages upgrades for LTS distributions to `.1` (like `18.04.1`), use the `-d` option to force it to recognize the new version:
+1.  You're now ready to begin the upgrade to Ubuntu 18.04 LTS.
 
-        do-release-upgrade -d
+        do-release-upgrade
 
     Follow the on-screen instructions to complete the installation process.
 
-4.  Because Linode offers internal package mirrors for Ubuntu, you may see some combination of the following messages:
+2.  Because Linode offers internal package mirrors for Ubuntu, you may see some combination of the following messages:
 
     * **No valid mirror found**
 
